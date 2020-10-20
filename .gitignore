@@ -1,1 +1,4 @@
 public_html
+.DS_Store
+.htaccess
+.env
