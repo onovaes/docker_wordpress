@@ -1,10 +1,10 @@
 # docker_wordpress
 Ambiente dev para wordpress com docker
 
-# Arquivo de configuracao
+## Arquivo de configuracao
 $cp env-example .env
 
-# Ativando
+## Ativando
 $docker-compose up
 
 
