@@ -12,7 +12,7 @@ services:
       WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
       WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
       WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
-      WORDPRESS_DB_PORT: 3309
+      WORDPRESS_DB_PORT: 3312
     volumes:
       - ${APACHE_DOCS}:/var/www/html
 
@@ -20,7 +20,7 @@ services:
     image: mysql:5.7
     restart: always
     ports:
-      - 3309:3306
+      - 3312:3306
     environment:
       MYSQL_DATABASE: ${WORDPRESS_DB_NAME}
       MYSQL_USER: ${WORDPRESS_DB_USER}
